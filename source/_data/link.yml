@@ -1,0 +1,15 @@
+- class_name: 友情链接
+  class_desc: 那些人，那些事
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/
+      avatar: https://hexo.io/logo.svg
+      descr: Hexo官方文档
+
+- class_name: 网站
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: Weibo
+      link: https://www.weibo.com/
+      avatar: https://weibo.com/favicon.ico
+      descr: 新浪微博
