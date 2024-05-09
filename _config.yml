@@ -13,7 +13,8 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://cjf717.github.io/
+url: https://cjf717.github.io/blog-2024
+root: /blog-2024/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -104,4 +105,4 @@ deploy:
   type: 'git'
   repo:
     # gitee: https://gitee.com/jeff-chan/jeff-chan.gitee.io,gh-pages
-    github: git@github.com:cjf717/blog-2024.git,gh-pages
+    github: git@github.com:cjf717/blog-2024.git,git-pages
