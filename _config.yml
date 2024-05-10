@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 创梦天空博客
+title: 创梦Blog
 subtitle: '创梦的天空，自由翱翔'
 description: '这是一个由hexo生成的测试博客网站'
 keywords: blog
@@ -15,7 +15,7 @@ timezone: 'Asia/Shanghai'
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://cjf717.github.io/blog-2024
 root: /blog-2024/
-permalink: :year/:month/:day/:title/
+permalink: :year/:title/ # :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -42,7 +42,7 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true  # 启用 资源文件夹
-relative_link: false
+relative_link: true # 是否输出相对链接
 future: true
 syntax_highlighter: highlight.js
 highlight:
@@ -106,3 +106,7 @@ deploy:
   repo:
     # gitee: https://gitee.com/jeff-chan/jeff-chan.gitee.io,gh-pages
     github: git@github.com:cjf717/blog-2024.git,git-pages
+
+markdown:
+    plugins:
+      - '@renbaoshuo/markdown-it-katex'

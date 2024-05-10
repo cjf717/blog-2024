@@ -1,5 +1,5 @@
 ---
-title: 壁紙
+title: 壁纸
 type: "gallery/wallpaper"
 date: 2024-05-09 14:58:57
 ---
