@@ -106,11 +106,11 @@ theme: butterfly  # butterfly    # landscape
 #   repo:
 #     # gitee: https://gitee.com/jeff-chan/jeff-chan.gitee.io,gh-pages
 #     github: git@github.com:cjf717/blog-2024.git,git-pages
-deploy:
-  type: git
-  repo: https://github.com/cjf717/blog-2024 #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: git-pages
-  message: [message]
+# deploy:
+#   type: git
+#   repo: https://github.com/cjf717/blog-2024 #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+#   branch: git-pages
+#   message: [message]
 
 markdown:
     plugins:
