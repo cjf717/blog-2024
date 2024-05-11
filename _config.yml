@@ -42,7 +42,7 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true  # 启用 资源文件夹
-relative_link: true # 是否输出相对链接
+relative_link: false # 是否输出相对链接
 future: true
 syntax_highlighter: highlight.js
 highlight:
@@ -97,16 +97,25 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly    # landscape
+theme: butterfly  # butterfly    # landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# deploy:
+#   type: 'git'
+#   repo:
+#     # gitee: https://gitee.com/jeff-chan/jeff-chan.gitee.io,gh-pages
+#     github: git@github.com:cjf717/blog-2024.git,git-pages
 deploy:
-  type: 'git'
-  repo:
-    # gitee: https://gitee.com/jeff-chan/jeff-chan.gitee.io,gh-pages
-    github: git@github.com:cjf717/blog-2024.git,git-pages
+  type: git
+  repo: https://github.com/cjf717/blog-2024 #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: git-pages
+  message: [message]
 
 markdown:
     plugins:
       - '@renbaoshuo/markdown-it-katex'
+
+marked:
+  prependRoot: true
+  postAsset: true
