@@ -8,20 +8,4 @@ tags:
 ---
 
 
-数学符号
-
-$\overline{abc}$
-
-$$
-a^2 + b^2 = c^2 \\
-e=mc^2
-$$
-
-$$
-\begin{cases}
-x=\rho\cos\theta \\
-y=\rho\sin\theta \\
-\end{cases}
-$$
-
 
